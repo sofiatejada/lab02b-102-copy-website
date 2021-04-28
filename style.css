@@ -8,7 +8,7 @@ body, html {
 
 * {
     box-sizing: border-box;
-    border: solid 1px black;
+    
 }
 
 body {
@@ -23,6 +23,7 @@ content {
     margin-left: 50px;
     margin-right: 50px;
     height: 100%;
+    overflow: hidden;
 }
 
 .top-nav {
@@ -95,6 +96,7 @@ header {
     height: 75px;
     margin-top: 10px;
     background-color: #282e3e;
+    border-radius: .25rem;
 }
 
 .name {
